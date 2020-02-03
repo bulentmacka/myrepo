@@ -653,6 +653,30 @@
 				"EndeksB2":646.65,
 				"EndeksC":398.95,
 				"EndeksA":437.25
+			},
+	 
+	 	 	 {
+				"YIL":2019,
+				"AY":12,
+				"EndeksB5":454.08,
+				"EndeksB4":385.43,
+				"EndeksB3":875.05,
+				"EndeksB1":428.04,
+				"EndeksB2":656.09,
+				"EndeksC":399.74,
+				"EndeksA":440.5
+			},
+	 
+	 	 	 {
+				"YIL":2020,
+				"AY":1,
+				"EndeksB5":462.42,
+				"EndeksB4":391.52,
+				"EndeksB3":923.38,
+				"EndeksB1":429.31,
+				"EndeksB2":673.29,
+				"EndeksC":407.9,
+				"EndeksA":446.45
 			}
 	 
 	 
