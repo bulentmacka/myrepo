@@ -797,8 +797,55 @@
 				"EndeksB2":962.99,
 				"EndeksC":500.14,
 				"EndeksA":498.58
+			}, 
+	 
+	 		{
+				"YIL":2020,
+				"AY":12,
+				"EndeksB5":568.27,
+				"EndeksB4":427.23,
+				"EndeksB3":916.84,
+				"EndeksB1":494.39,
+				"EndeksB2":1025.39,
+				"EndeksC":505.58,
+				"EndeksA":504.81
 			},
 	 
+	 	 	{
+				"YIL":2021,
+				"AY":1,
+				"EndeksB5":583.38,
+				"EndeksB4":441.30,
+				"EndeksB3":954.83,
+				"EndeksB1":518.33,
+				"EndeksB2":1056.08,
+				"EndeksC":515.79,
+				"EndeksA":513.30
+			},
+	 
+	 	 	{
+				"YIL":2021,
+				"AY":2,
+				"EndeksB5":590.52,
+				"EndeksB4":468.21,
+				"EndeksB3":1007.10,
+				"EndeksB1":531.99,
+				"EndeksB2":1051.19,
+				"EndeksC":514.85,
+				"EndeksA":517.96
+			},
+	 
+	 	 	{
+				"YIL":2021,
+				"AY":3,
+				"EndeksB5":614.93,
+				"EndeksB4":479.13,
+				"EndeksB3":1148.40,
+				"EndeksB1":548.42,
+				"EndeksB2":1146.37,
+				"EndeksC":526.25,
+				"EndeksA":523.53
+			},
 	 
 	 
 	 
