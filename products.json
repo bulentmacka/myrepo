@@ -1,0 +1,10 @@
+[
+
+    {"id":1,"name":"Telefon","unitPrice":5000"},
+    {"id":2,"name":"Laptop","unitPrice":4000"},
+    {"id":3,"name":"Tablet","unitPrice":3000"},
+    {"id":4,"name":"Pc","unitPrice":6000"},
+    {"id":5,"name":"Televizyon","unitPrice":3000"},
+    {"id":6,"name":"Radyo","unitPrice":1000"}
+
+]
