@@ -917,6 +917,42 @@
 				"EndeksB2":1625.09,
 				"EndeksC":579.45,
 				"EndeksA":570.66
+			},
+	 
+	 	 	{
+				"YIL":2021,
+				"AY":10,
+				"EndeksB5":780.45,
+				"EndeksB4":699.82,
+				"EndeksB3":1813.13,
+				"EndeksB1":674.11,
+				"EndeksB2":1714.04,
+				"EndeksC":602.76,
+				"EndeksA":584.32
+			},
+	 
+	 	 	{
+				"YIL":2021,
+				"AY":11,
+				"EndeksB5":858.43,
+				"EndeksB4":754.53,
+				"EndeksB3":2036.73,
+				"EndeksB1":726.07,
+				"EndeksB2":1898.32,
+				"EndeksC":647.61,
+				"EndeksA":604.84
+			},
+	 
+	 	 	{
+				"YIL":2021,
+				"AY":12,
+				"EndeksB5":1022.25,
+				"EndeksB4":810.24,
+				"EndeksB3":2400.99,
+				"EndeksB1":827.31,
+				"EndeksB2":2367.77,
+				"EndeksC":737.28,
+				"EndeksA":686.95
 			}
 	 
 	 
