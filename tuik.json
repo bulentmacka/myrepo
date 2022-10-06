@@ -1035,6 +1035,28 @@
 				"EndeksB2":3190.01,
 				"EndeksC":1045.22,
 				"EndeksA":1001.03
+			},
+		 	 {
+				"YIL":2022,
+				"AY":8,
+				"EndeksB5":1780.05,
+				"EndeksB4":1373.36,
+				"EndeksB3":4846.79,
+				"EndeksB1":1898.99,
+				"EndeksB2":3108.9,
+				"EndeksC":1080.3,
+				"EndeksA":1015.65
+			},
+		 	 {
+				"YIL":2022,
+				"AY":9,
+				"EndeksB5":1865.09,
+				"EndeksB4":1400.14,
+				"EndeksB3":4709.49,
+				"EndeksB1":1992.85,
+				"EndeksB2":3132.95,
+				"EndeksC":1103.61,
+				"EndeksA":1046.89
 			}
 	
 	
