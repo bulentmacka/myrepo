@@ -1057,6 +1057,50 @@
 				"EndeksB2":3132.95,
 				"EndeksC":1103.61,
 				"EndeksA":1046.89
+			},
+		 	 {
+				"YIL":2022,
+				"AY":10,
+				"EndeksB5":2011.13,
+				"EndeksB4":1430.51,
+				"EndeksB3":5004.57,
+				"EndeksB1":2117.53,
+				"EndeksB2":3143.79,
+				"EndeksC":1148.3,
+				"EndeksA":1084
+			},
+		 	 {
+				"YIL":2022,
+				"AY":11,
+				"EndeksB5":2026.08,
+				"EndeksB4":1430.62,
+				"EndeksB3":4903.7,
+				"EndeksB1":2202.64,
+				"EndeksB2":3121.86,
+				"EndeksC":1180.23,
+				"EndeksA":1115.26
+			},
+		 	 {
+				"YIL":2022,
+				"AY":12,
+				"EndeksB5":2021.19,
+				"EndeksB4":1430.96,
+				"EndeksB3":4291.19,
+				"EndeksB1":2260.17,
+				"EndeksB2":3151.41,
+				"EndeksC":1204.94,
+				"EndeksA":1128.45
+			},
+		 	 {
+				"YIL":2023,
+				"AY":1,
+				"EndeksB5":2105.17,
+				"EndeksB4":1438.91,
+				"EndeksB3":4448.04,
+				"EndeksB1":2447.42,
+				"EndeksB2":3218.34,
+				"EndeksC":1305.39,
+				"EndeksA":1203.48
 			}
 	
 	
