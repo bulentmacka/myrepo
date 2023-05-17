@@ -1101,6 +1101,39 @@
 				"EndeksB2":3218.34,
 				"EndeksC":1305.39,
 				"EndeksA":1203.48
+			},
+		 	 {
+				"YIL":2023,
+				"AY":2,
+				"EndeksB5":2138.04,
+				"EndeksB4":1471.93,
+				"EndeksB3":4383.03,
+				"EndeksB1":2553.12,
+				"EndeksB2":3323.44,
+				"EndeksC":1333.49,
+				"EndeksA":1241.33
+			},
+		 	 {
+				"YIL":2023,
+				"AY":3,
+				"EndeksB5":2147.44,
+				"EndeksB4":1527.59,
+				"EndeksB3":4174.86,
+				"EndeksB1":2603.05,
+				"EndeksB2":3426.85,
+				"EndeksC":1357.76,
+				"EndeksA":1269.75
+			},
+		 	 {
+				"YIL":2023,
+				"AY":4,
+				"EndeksB5":2164.94,
+				"EndeksB4":1558.4,
+				"EndeksB3":4186.93,
+				"EndeksB1":2636.27,
+				"EndeksB2":3506.86,
+				"EndeksC":1395.43,
+				"EndeksA":1300.04
 			}
 	
 	
