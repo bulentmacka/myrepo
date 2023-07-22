@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+            rel="stylesheet">
+
+
+    </head>
+    <body>
+
+        <div class="container">
+
+            <div class="row mt-5">
+
+                <div class="col-12">
+
+                    <button class="btn btn-primary btn-sm" id="fileButton">Genel Bilgiler</button>
+
+                    <button class="btn btn-primary btn-sm" id="allowanceButton">Ödenekler ve Harcamalar</button>
+    
+                    <button id="calcButton" class="btn btn-primary btn-sm">Hesapla</button>  
+
+                    <button id="saveButton" class="btn btn-primary btn-sm">Kaydet</button> 
+
+                </div>              
+
+            </div>
+
+            <!-- <div id="viewButtons" class="row mt-3" style="display: none;">
+
+                <div class="col-12">
+
+                    <button id="detailButton" class="btn btn-primary btn-sm">Detay Görünüm</button>
+                    <button id="icmalButton" class="btn btn-primary btn-sm">İcmal Görünüm</button>
+
+
+                </div>
+
+            </div> -->
+
+
+
+            <div id="containerFile">             
+
+                <table class="table table-sm mt-5">
+
+                    <tbody>
+
+                            <tr>
+
+                                <td>İhale Ayı</td>
+
+                                <td class="text-end">
+                                    <select name="ihaleYear" id="ihaleYear">
+
+                                    </select>
+                                    <!--<input type="number" name="ihaleYear" id="ihaleYear" class="text-center" style="width:100px;">-->
+                                    <select name="ihaleMonth" id="ihaleMonth" style="width: 200px;">
+                                        <option value="1">Ocak</option>
+                                        <option value="2">Şubat</option>
+                                        <option value="3">Mart</option>
+                                        <option value="4">Nisan</option>
+                                        <option value="5">Mayıs</option>
+                                        <option value="6">Haziran</option>
+                                        <option value="7">Temmuz</option>
+                                        <option value="8">Ağustos</option>
+                                        <option value="9">Eylül</option>
+                                        <option value="10">Ekim</option>
+                                        <option value="11">Kasım</option>
+                                        <option value="12">Aralık</option>
+                                    </select>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="text-center" colspan="2">
+                                    <h5>Ağırlık Oranları</h5>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>a- İşçilik</td>
+                                <td class="text-end"><input type="number"  name="tbA" id="tbA" value="0.00" max="1" min="0" class="text-center" style="width: 100px;"></td>
+                            </tr>
+
+                            <tr>
+                                <td>b1- Metalik olmayan diğer mineral ürünleri</td>
+                                <td class="text-end"><input type="number" name="tbB1" id="tbB1" value="0.00" max="1" min="0" class="text-center" style="width: 100px;"></td>
+                            </tr>
+
+                            <tr>
+                                <td>b2- Demir ve çelik ürünleri</td>
+                                <td class="text-end"><input type="number" name="tbB2" id="tbB2" value="0.00" max="1" min="0" class="text-center" style="width: 100px;"></td>
+                            </tr>
+
+                            <tr>
+                                <td>b3- Katı veya sıvı yakıtlar</td>
+                                <td class="text-end"><input type="number" name="tbB3" id="tbB3" value="0.00" max="1" min="0" class="text-center" style="width: 100px;"></td>
+                            </tr>
+
+                            <tr>
+                                <td>b4- Ağaç ve mantar ürünleri </td>
+                                <td class="text-end"><input type="number" name="tbB4" id="tbB4" value="0.00" max="1" min="0" class="text-center" style="width: 100px;"></td>
+                            </tr>
+
+                            <tr>
+                                <td>b5- Diğer malzemeler</td>
+                                <td class="text-end"><input type="number" name="tbB5" id="tbB5" value="0.00" max="1" min="0" class="text-center" style="width: 100px;"></td>
+                            </tr>
+
+                            <tr>
+                                <td>c- Makine ve ekipmana ait amortisman</td>
+                                <td class="text-end"><input type="number" name="tbC" id="tbC" value="0.00" max="1" min="0" class="text-center" style="width: 100px;"></td>
+                            </tr>
+
+
+                    </tbody>
+
+
+                </table>
+
+
+
+            </div>
+
+
+            <div id="containerAllowance" class="mt-5" style="display: none;">
+
+                <div class="row">
+
+                    <div class="col-12">
+                        Başlangıç Ayı &nbsp;
+                        <select name="startYear" id="startYear">
+
+                        </select>
+                        <select name="startMonth" id="startMonth">
+                            <option value="1">Ocak</option>
+                            <option value="2">Şubat</option>
+                            <option value="3">Mart</option>
+                            <option value="4">Nisan</option>
+                            <option value="5">Mayıs</option>
+                            <option value="6">Haziran</option>
+                            <option value="7">Temmuz</option>
+                            <option value="8">Ağustos</option>
+                            <option value="9">Eylül</option>
+                            <option value="10">Ekim</option>
+                            <option value="11">Kasım</option>
+                            <option value="12">Aralık</option>
+                        </select>
+
+                        - Bitiş Ayı &nbsp;
+
+                        <select name="endYear" id="endYear">
+
+                        </select>
+                        <select name="endMonth" id="endMonth">
+                            <option value="1">Ocak</option>
+                            <option value="2">Şubat</option>
+                            <option value="3">Mart</option>
+                            <option value="4">Nisan</option>
+                            <option value="5">Mayıs</option>
+                            <option value="6">Haziran</option>
+                            <option value="7">Temmuz</option>
+                            <option value="8">Ağustos</option>
+                            <option value="9">Eylül</option>
+                            <option value="10">Ekim</option>
+                            <option value="11">Kasım</option>
+                            <option value="12">Aralık</option>
+                        </select>
+
+                        <button id="apply" class="btn btn-primary btn-sm">Uygula</button>
+
+                    </div>
+
+                </div>
+                <table class="table table-striped table-sm mt-5 border">
+
+                    <thead>
+
+                        <tr class="text-center">
+                            <th>AY</th>
+                            <th>ÖDENEK MİKTARI</th>
+                            <th>HAKEDİŞ TUTARI</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody id="allowances">
+
+                    </tbody>
+
+                </table>
+
+
+
+
+
+            </div>
+
+            <div id="containerFF" class="mt-5" style="display:none">
+
+               <!-- <div id="containerFFDetail" style="display: none;">              
+
+                    <table class="table table-striped table-bordered mt-5">
+
+                    <thead>
+                        <tr class="text-center">
+    
+                            <th>Uygulama Ayı</th>
+    
+                            <th>İşin Fiilen Yapıldığı Ay</th>
+    
+                            <th>Fiyat Farkına Esas Tutar</th>
+
+                            <th>Pn - 1</th>
+    
+                            <th>Fiyat Farkı Tutarı</th>
+    
+                        </tr>
+                    </thead>
+    
+                    <tbody>
+    
+                    </tbody>
+    
+                    </table>
+
+               </div> -->                            
+
+                    <table class="table table-striped table-bordered mt-5">
+
+                        <thead>
+                            <tr class="text-center">
+
+                                <th>İşi Fiilen Yapıldığı Ay /<br> Uygulama Ayı</th>
+
+                                <th>Fiyat Farkına Esas Tutar</th>
+
+                                <th>Pn - 1</th>
+
+                                <th>Fiyat Farkı Tutarı</th>
+
+                            </tr>
+                        </thead>
+
+                        <tbody>
+
+                        </tbody>
+
+                    </table>
+
+                
+
+            </div>
+
+        </div>
+
+        <script src="/app.js"></script>
+
+        <script>        
+
+        const fileButton = document.querySelector('#fileButton')
+        const allowanceButton = document.querySelector('#allowanceButton')
+        const calcButton = document.querySelector('#calcButton')
+        const detailButton = document.querySelector('#detailButton')
+        const icmalButton = document.querySelector('#icmalButton')
+        const saveButton = document.querySelector('#saveButton')
+
+        const containerFile = document.querySelector('#containerFile')
+        const containerAllowance = document.querySelector('#containerAllowance')
+        const containerFF= document.querySelector('#containerFF')
+        //const containerDetailFF= document.querySelector('#containerFFDetail')
+        //const containerIcmalFF= document.querySelector('#containerFFIcmal')
+        //const viewButtons= document.querySelector('#viewButtons')
+
+        const ihaleYear = document.querySelector('#ihaleYear')
+        const ihaleMonth = document.querySelector('#ihaleMonth')
+        const startYear= document.querySelector('#startYear')
+        const startMonth = document.querySelector('#startMonth')
+        const endYear = document.querySelector('#endYear')
+        const endMonth = document.querySelector('#endMonth')
+
+        const nowYear = new Date().getFullYear()
+        let yearsHtml=''
+        for (let y=nowYear;y>=2015;y--){
+            yearsHtml += `<option>${y}</option>`
+        }
+
+        ihaleYear.innerHTML = yearsHtml
+        startYear.innerHTML = yearsHtml
+        endYear.innerHTML = yearsHtml
+
+        fileButton.addEventListener('click',()=>{
+            
+            containerFile.style.display = 'block'
+            containerAllowance.style.display = 'none'
+            containerFF.style.display = 'none'
+
+        
+        })
+
+        allowanceButton.addEventListener('click',()=>{
+            
+            containerFile.style.display = 'none'
+            containerAllowance.style.display = 'block'
+            containerFF.style.display = 'none'
+        
+        })
+
+    const apply = document.querySelector('#apply')
+
+    apply.addEventListener('click',() => {
+        createAllowances(
+            parseInt(startYear.value),
+            parseInt(startMonth.value),
+            parseInt(endYear.value),
+            parseInt(endMonth.value)
+        )
+
+        //console.log(startYear.value,startMonth.value,endYear.value,endMonth.value)
+
+    })
+
+    
+
+    calcButton.addEventListener('click',()=>{
+        const containerAllowance = document.querySelector('#containerAllowance')
+        const table = containerAllowance.querySelector('table')
+        const tbody = table.querySelector('tbody')
+        const rows = tbody.querySelectorAll('tr')
+
+        const data = {  ihaleYear:parseInt(ihaleYear.value),
+                        ihaleMonth:parseInt(ihaleMonth.value),
+                        spendings:[]
+                    }
+
+        Array.from(rows).map(row => {
+            const year = parseInt(row.getAttribute('year'))
+            const month = parseInt(row.getAttribute('month'))
+            const allowance = parseFloat(row.querySelectorAll('td')[1].querySelector('input').value)
+            const spending = parseFloat(row.querySelectorAll('td')[2].querySelector('input').value)
+            data.spendings.push({year:year,month:month,allowance:allowance,spending:spending})
+        })
+
+        //console.log(data)
+
+            containerFile.style.display = 'none'
+            containerAllowance.style.display = 'none'
+            containerFF.style.display = 'block'
+            //viewButtons.style.display = 'block'
+
+        FFCalc(data)
+    })
+
+window.addEventListener('load',loadJsonFile)
+saveButton.addEventListener('click',createJsonFile)
+
+
+</script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    </body>
+</html>
