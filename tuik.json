@@ -1134,6 +1134,28 @@
 				"EndeksB2":3506.86,
 				"EndeksC":1395.43,
 				"EndeksA":1300.04
+			},
+		 	 {
+				"YIL":2023,
+				"AY":5,
+				"EndeksB5":2179.02,
+				"EndeksB4":1616.41,
+				"EndeksB3":3827,
+				"EndeksB1":2653.73,
+				"EndeksB2":3515.08,
+				"EndeksC":1424.63,
+				"EndeksA":1300.6
+			},
+		 	 {
+				"YIL":2023,
+				"AY":6,
+				"EndeksB5":2320.72,
+				"EndeksB4":1696.66,
+				"EndeksB3":4521.68,
+				"EndeksB1":2694.63,
+				"EndeksB2":3823.46,
+				"EndeksC":1526.03,
+				"EndeksA":1351.59
 			}
 	
 	
