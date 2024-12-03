@@ -1302,7 +1302,7 @@
 				"EndeksA":2394.1
 			},
 			
-		{
+			{
 				"YIL":2024,
 				"AY":8,
 				"EndeksB5":3610.51,
@@ -1312,6 +1312,28 @@
 				"EndeksB2":5184.47,
 				"EndeksC":2525.85,
 				"EndeksA":2453.34
+			},			
+			{
+				"YIL":2024,
+				"AY":9,
+				"EndeksB5":3659.84,
+				"EndeksB4":2712.29,
+				"EndeksB3":6334.84,
+				"EndeksB1":4317.68,
+				"EndeksB2":5279.37,
+				"EndeksC":2558.99,
+				"EndeksA":2526.16
+			},			
+			{
+				"YIL":2024,
+				"AY":10,
+				"EndeksB5":3707.10,
+				"EndeksB4":2761.78,
+				"EndeksB3":6509.93,
+				"EndeksB1":4357.79,
+				"EndeksB2":5402.22,
+				"EndeksC":2572.66,
+				"EndeksA":2598.91
 			}
 	 
 	 
